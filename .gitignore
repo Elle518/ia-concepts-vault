@@ -1,0 +1,19 @@
+# macOS / iCloud
+.DS_Store
+Icon?
+.AppleDouble
+.LSOverride
+
+# Obsidian cache/workspace local
+.obsidian/
+
+# Trash
+.trash/
+.Trash/
+
+# Large or temporary files
+*.tmp
+*.temp
+
+# Ignore folders
+_raw/
