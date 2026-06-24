@@ -32,6 +32,8 @@ En general, las técnicas de adaptación de modelos se pueden dividir en dos cat
 
 ## Preguntas
 
+#flashcards/ml 
+
 ¿Qué se entiendo por AI engineering?
 ?
 [[AI engineering#Definición]]
