@@ -14,7 +14,7 @@ Un **parámetro** es una variable dentro de un modelo de aprendizaje automático
 
 #flashcards/dl #flashcards/ml 
 
-¿Qué es un parámetro en un modelo de aprendizaje automático?
+**¿Qué es un parámetro en un modelo de aprendizaje automático?**
 ?
-[[Parámetro#Definición]]
+![[#Definición]]
 

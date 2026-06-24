@@ -43,18 +43,18 @@ Así, los tokens de subpalabras ofrecen un equilibrio entre tener menos unidades
 
 #flashcards/nlp 
 
-¿Qué es la tokenización y por qué es importante en el procesamiento de lenguaje natural?
+**¿Qué es la tokenización y por qué es importante en el procesamiento de lenguaje natural?**
 ?
-[[Tokenización#Definición]]
+![[#Definición]]
 
-¿Cuáles son los diferentes tipos de tokenización?
+**¿Cuáles son los diferentes tipos de tokenización?**
 ?
-[[Tokenización#Tipos de tokenización]]
+![[#Tipos de tokenización]]
 
-¿Por qué los modelos de lenguaje utilizan tokens de subpalabras como unidad en lugar de palabras o caracteres?
+**¿Por qué los modelos de lenguaje utilizan tokens de subpalabras como unidad en lugar de palabras o caracteres?**
 ?
-[[Tokenización#Tokens de subpalabras]]
+![[#Tokens de subpalabras]]
 
-¿Cuáles son algunos desafíos comunes en la tokenización de textos?
+**¿Cuáles son algunos desafíos comunes en la tokenización de textos?**
 ?
-[[Tokenización#Desafíos en la tokenización]]
+![[#Desafíos en la tokenización]]

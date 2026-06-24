@@ -40,10 +40,10 @@ donde el modelo asigna una probabilidad al token correcto en cada posición.
 
 #flashcards/nlp 
 
-¿Qué es la *perplexity*?
+**¿Qué es la *perplexity*?**
 ?
-[[Perplexity#Definición]]
+![[#Definición]]
 
-¿Cómo se calcula la *perplexity*?
+**¿Cómo se calcula la *perplexity*?**
 ?
-[[Perplexity#Fórmula de la *perplexity*]]
+![[#Fórmula de la *perplexity*]]

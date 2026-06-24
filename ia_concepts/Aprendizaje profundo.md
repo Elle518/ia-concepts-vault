@@ -21,7 +21,7 @@ Por su parte, un enfoque de DL (utilizando una CNN) tomaría como entrada imáge
 
 El DL destaca al trabajar con grandes conjuntos de datos y problemas complejos (**escalabilidad**), como el reconocimiento de imágenes o el procesamiento del lenguaje natural. Los algoritmos de ML tradicionales pueden tener dificultades con la misma complejidad y escala de datos.
 
-En cuanto a la **interpretabilidad del modelo**, los modelos tradicionales de ML suelen ser más interpretables que los modelos de DL, que se consideran más como "cajas negras" debido a su complejidad y la dificultad para entender cómo toman decisiones.
+En cuanto a la **interpretabilidad del modelo**, los modelos tradicionales de ML suelen ser más interpretables que los modelos de DL, que se consideran más como “cajas negras” debido a su complejidad y la dificultad para entender cómo toman decisiones.
 
 Por último, los modelos de DL generalmente requieren **más tiempo y recursos computacionales** para entrenarse que los modelos tradicionales de ML. Esto normalmente se maneja con *hardware* especializado como las GPU.
 
@@ -29,10 +29,10 @@ Por último, los modelos de DL generalmente requieren **más tiempo y recursos c
 
 #flashcards/dl 
 
-¿Qué es el aprendizaje profundo?
+**¿Qué es el aprendizaje profundo?**
 ?
-[[Aprendizaje profundo#Definición]]
+![[#Definición]]
 
-¿Cómo difiere el aprendizaje profundo del aprendizaje automático tradicional?
+**¿Cómo difiere el aprendizaje profundo del aprendizaje automático tradicional?**
 ?
-[[Aprendizaje profundo#DL vs ML tradicional]]
+![[#DL vs ML tradicional]]

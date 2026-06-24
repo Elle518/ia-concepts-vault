@@ -84,22 +84,22 @@ Parece contradictorio que los modelos más grandes requieran más datos de entre
 
 #flashcards/nlp 
 
-¿Qué es un modelo del lenguaje?
+**¿Qué es un modelo del lenguaje?**
 ?
-[[Modelo del lenguaje#Definición]]
+![[#Definición]]
 
-¿Qué se entiende por modelado del lenguaje?
+**¿Qué se entiende por modelado del lenguaje?**
 ?
-[[Modelo del lenguaje#Modelado del lenguaje]]
+![[#Modelado del lenguaje]]
 
-¿Qué representa el vocabulario de un modelo del lenguaje?
+**¿Qué representa el vocabulario de un modelo del lenguaje?**
 ?
-[[Modelo del lenguaje#Vocabulario]]
+![[#Vocabulario]]
 
-¿Qué tipos de modelos del lenguaje existen?
+**¿Qué tipos de modelos del lenguaje existen?**
 ?
-[[Modelo del lenguaje#Tipos de modelos del lenguaje]]
+![[#Tipos de modelos del lenguaje]]
 
-¿Qué son los llamados grandes modelos del lenguaje (LLMs)?
+**¿Qué son los llamados grandes modelos del lenguaje (LLMs)?**
 ?
-[[Modelo del lenguaje#Grandes modelos del lenguaje]]
+![[#Grandes modelos del lenguaje]]

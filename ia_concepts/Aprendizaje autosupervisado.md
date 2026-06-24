@@ -54,14 +54,14 @@ Gracias a este enfoque, los modelos pueden entrenarse con enormes cantidades de 
 
 #flashcards/nlp #flashcards/ml
 
-¿En qué consiste el aprendizaje autosupervisado?
+**¿En qué consiste el aprendizaje autosupervisado?**
 ?
-[[Aprendizaje autosupervisado#Definición]]
+![[#Definición]]
 
-¿Qué tipos de tareas de aprendizaje autosupervisado existen?
+**¿Qué tipos de tareas de aprendizaje autosupervisado existen?**
 ?
-[[Aprendizaje autosupervisado#Tipos de tareas]]
+![[#Tipos de tareas]]
 
-¿Cuál es la utilidad del aprendizaje supervisado?
+**¿Cuál es la utilidad del aprendizaje supervisado?**
 ?
-[[Aprendizaje autosupervisado#Utilidad]]
+![[#Utilidad]]

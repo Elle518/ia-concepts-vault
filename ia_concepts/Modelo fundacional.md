@@ -39,14 +39,14 @@ Muchos de estos modelos son además **multimodales** (*large multimodal model* o
 
 #flashcards/llms #flashcards/nlp 
 
-¿Qué es un modelo fundacional?
+**¿Qué es un modelo fundacional?**
 ?
-[[Modelo fundacional#Definición]]
+![[#Definición]]
 
-¿Cuál es la idea clave detrás de los modelos fundacionales?
+**¿Cuál es la idea clave detrás de los modelos fundacionales?**
 ?
-[[Modelo fundacional#Idea clave]]
+![[#Idea clave]]
 
-¿Qué es un modelo multimodal o LMM?
+**¿Qué es un modelo multimodal o LMM?**
 ?
-[[Modelo fundacional#Modelos multimodales]]
+![[#Modelos multimodales]]
