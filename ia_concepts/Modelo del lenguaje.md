@@ -31,7 +31,7 @@ El modelado del lenguaje es la base de muchas tareas de NLP, como generación de
 
 En resumen, modelar el lenguaje significa aprender la estructura estadística del lenguaje para poder estimar qué textos son más probables y generar o evaluar secuencias lingüísticas.
 
-## Aprendizaja autosupervisado
+## Aprendizaje autosupervisado
 
 Los modelos del lenguaje generalmente se entrenan usando [[Aprendizaje autosupervisado|aprendizaje autosupervisado]] o autosupervisión (*self-supervision*).
 
@@ -85,7 +85,7 @@ Parece contradictorio que los modelos más grandes requieran más datos de entre
 
 ¿Qué es un modelo del lenguaje?
 ?
-[[Modelo del lenguaje#]]
+[[Modelo del lenguaje#Definición]]
 
 ¿Qué se entiende por modelado del lenguaje?
 ?
