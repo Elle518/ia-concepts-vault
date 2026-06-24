@@ -41,6 +41,8 @@ Así, los tokens de subpalabras ofrecen un equilibrio entre tener menos unidades
 
 ## Preguntas
 
+#flashcards/nlp 
+
 ¿Qué es la tokenización y por qué es importante en el procesamiento de lenguaje natural?
 ?
 [[Tokenización#Definición]]
