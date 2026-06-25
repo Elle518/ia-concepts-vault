@@ -1,0 +1,5 @@
+model = "gpt-5.5"
+model_reasoning_effort = "medium"
+
+[projects."/Users/elle/Library/Mobile Documents/iCloud~md~obsidian/Documents/ai_vault"]
+trust_level = "trusted"
