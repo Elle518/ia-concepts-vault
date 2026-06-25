@@ -56,7 +56,7 @@ Algunos frameworks también tienen un parámetro llamado *repetition penalty*, t
 
 **¿Cuál es la utilidad de las penalizaciones por repetición?**
 ?
-![[#Intuición]]
+![[#Utilidad]]
 
 **¿Qué diferencia hay entre *frequency penalty* y *presence penalty*?**
 ?
