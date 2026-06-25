@@ -9,7 +9,7 @@ tags:
 
 La **ingeniería de inteligencia artificial** (*artificial intelligence engineering*) se refiere al proceso de crear aplicaciones sobre [[Modelo fundacional|modelos fundacionales]].
 
-Se han estado creando aplicaciones de IA durante más de una década, un proceso a menudo conocido como ingeniería de aprendizaje automático (*machine learning engineering*) o MLOps (abreviatura de *ML operations*). 
+Se han estado creando aplicaciones de IA durante más de una década, un proceso a menudo conocido como ingeniería de aprendizaje automático (*machine learning engineering*) o MLOps (abreviatura de *ML operations*).
 
 Si la [[Ingeniería de aprendizaje automático|Ingeniería de aprendizaje automático]] tradicional implica el desarrollo de modelos de aprendizaje automático, la ingeniería de IA aprovecha los modelos existentes.
 
@@ -27,12 +27,12 @@ En resumen, la ingeniería de IA se diferencia de la ingeniería de ML en que se
 
 En general, las técnicas de adaptación de modelos se pueden dividir en dos categorías, según requieran o no actualizar los pesos del modelo:
 
-- **Técnicas basadas en *prompts***, que incluyen el *[[Prompt engineering|prompt engineering]]*, adaptan un modelo sin actualizar sus pesos. La adaptación se realiza proporcionando instrucciones y contexto al modelo, en lugar de modificarlo directamente. El *prompt engineering* es más fácil de implementar y requiere menos datos. Permite experimentar con más modelos, sin embargo, puede no ser suficiente para tareas complejas o aplicaciones con requisitos de rendimiento estrictos.
+- **Técnicas basadas en *prompts***, que incluyen el *[[Prompt engineering|prompt engineering]]*, adaptan un modelo sin actualizar sus pesos. La adaptación se realiza proporcionando instrucciones y contexto al modelo, en lugar de modificarlo directamente. El *prompt engineering* es más fácil de implementar y requiere menos datos. Permite experimentar con más modelos, sin embargo, puede no ser suficiente para tareas complejas o aplicaciones con requisitos de rendimiento estrictos. Dentro de este bloque entran técnicas como *[[Zero-shot prompting|zero-shot prompting]]*, *[[Few-shot prompting|few-shot prompting]]* y *[[Chain of thought prompting|chain-of-thought prompting]]*.
 - **Técnicas de *fine-tuning***, que sí que requieren actualizar los pesos del modelo. La adaptación se realiza modificando el modelo directamente. En general, las técnicas de *[[Fine-tuning|fine-tuning]]* o ajuste fino son más complejas y requieren más datos, pero pueden mejorar significativamente la calidad, la latencia y el coste del modelo. Muchas cosas no son posibles sin modificar los pesos del modelo, como adaptarlo a una nueva tarea a la que no se expuso durante el entrenamiento.
 
 ## Preguntas
 
-#flashcards/ml 
+#flashcards/ml
 
 **¿Qué se entiende por *AI engineering*?**
 ?
