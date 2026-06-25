@@ -14,7 +14,7 @@ En el contexto de los [[Modelo del lenguaje|modelos de lenguaje]], un modelo fu
 
 Después, ese modelo base puede adaptarse o usarse para muchas tareas concretas, como:
 
-- clasificación de textos    
+- clasificación de textos
 - resumen automático
 - traducción
 - extracción de información
@@ -37,7 +37,7 @@ Muchos de estos modelos son además **multimodales** (*large multimodal model* o
 
 ## Preguntas
 
-#flashcards/llms #flashcards/nlp 
+#flashcards/llms #flashcards/nlp
 
 **¿Qué es un modelo fundacional?**
 ?
