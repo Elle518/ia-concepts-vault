@@ -6,10 +6,20 @@ tags:
 
 ## Definición
 
+## Intuición
+
+## Explicación técnica
+
+## Errores comunes
+
 ## Preguntas
 
-#flashcards 
+#flashcards
 
-¿Qué es concepto?
+**¿Qué es concepto?**
 ?
-[[]]
+![[#Definición]]
+
+**¿Cuál es la intuición detrás de concepto?**
+?
+![[#Intuición]]
