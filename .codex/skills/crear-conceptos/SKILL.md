@@ -28,10 +28,18 @@ Prioriza:
 
 - definición clara en 2-4 frases
 - intuición sencilla
-- explicación técnica útil, sin alargarla de más
-- errores comunes o limitaciones
+- secciones útiles para estudiar el concepto, elegidas según el caso
 - preguntas de entrevista con respuestas ancladas dentro de la propia nota
 - enlaces internos a conceptos relacionados que ya existan o que probablemente deban existir
+
+No fuerces siempre los headers `Explicación técnica` y `Errores comunes`.
+Inclúyelos solo si aportan valor real:
+
+- `Explicación técnica`: cuando el concepto tenga mecanismos, fórmulas, arquitectura, trade-offs o detalles formales que convenga estudiar.
+- `Errores comunes`: cuando haya malentendidos frecuentes, confusiones de entrevista, limitaciones importantes o trampas prácticas.
+
+Puedes añadir cualquier otro header que mejore el aprendizaje del concepto, por ejemplo `Funcionamiento`, `Casos de uso`, `Cuándo usarlo`, `Evaluación`, `Ventajas y limitaciones`, `Comparación con ...`, `Ejemplo`, `Métricas`, `Pipeline`, `Trade-offs` o `Relación con otros conceptos`.
+Elige la estructura por utilidad de estudio, no por plantilla fija.
 
 ### 2. Nota o notas a partir de un recurso
 
