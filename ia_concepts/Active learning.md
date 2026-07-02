@@ -73,6 +73,8 @@ Busca ejemplos diversos respecto a los ya etiquetados, para cubrir mejor el espa
 
 Ayuda a evitar que el modelo pida muchas etiquetas de ejemplos parecidos entre sí.
 
+En la práctica, muchas estrategias combinan **incertidumbre** y **diversidad**: no basta con elegir ejemplos donde el modelo duda, también conviene evitar seleccionar muchos ejemplos muy parecidos entre sí.
+
 ### Query-by-committee
 
 Entrena varios modelos y selecciona los ejemplos donde los modelos discrepan más.
@@ -128,6 +130,7 @@ No suele ser la mejor opción si las etiquetas son baratas, si no hay infraestru
 - Usar probabilidades del modelo como si estuvieran perfectamente calibradas.
 - Sesgar el dataset hacia ejemplos raros, ambiguos o ruidosos.
 - Ignorar el coste operativo: interfaz de anotación, revisión, versionado de datos y reentrenamiento.
+- Subestimar el coste de reentrenar varios modelos o varias iteraciones del pipeline.
 
 ## Preguntas
 
