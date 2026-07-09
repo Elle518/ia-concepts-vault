@@ -12,6 +12,14 @@ tags:
 
 El resto de tokens se descartan antes de hacer el muestreo. Así se reduce la probabilidad de generar continuaciones muy improbables sin hacer la salida completamente determinista.
 
+Esta estrategia de muestreo permite reducir los cálculos sin sacrificar demasiado la diversidad de respuestas del modelo. Recordemos que se utiliza una capa *[[Softmax|softmax]]* para calcular la distribución de probabilidad sobre todos los valores posibles.
+
+*Softmax* requiere dos pasadas sobre todos los valores posibles, una para realizar la suma exponencial ($\sum_j e^{x_j}$) y otra para cada valor ($\frac{e^{x_i}}{\sum_j e^{x_j}}$). Para un modelo de lenguaje con un vocabulario extenso, este proceso es computacionalmente costoso.
+
+Para evitar este problema, después de que el modelo haya calculado los *[[Logit|logits]]*, seleccionamos los $k$ *logits* más altos y ejecutamos *softmax* solo sobre estos.
+
+Dependiendo de qué tan diversa deseemos que sea nuestra aplicación, $k$ puede estar entre 50 y 500, mucho más pequeño que el tamaño del vocabulario de un modelo. Luego, el modelo muestrea de entre estos valores más altos. Un valor $k$ más pequeño hace que el texto sea más predecible pero menos interesante, ya que el modelo se limita a un conjunto más pequeño de palabras probables.
+
 ## Utilidad
 
 La idea es limitar el espacio de elección del modelo.

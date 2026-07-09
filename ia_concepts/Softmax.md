@@ -18,9 +18,9 @@ Si un *logit* es mucho mayor que los demás, softmax le asignará una probabilid
 
 ## Cálculo de la softmax
 
-Dado un vector de logits $z = [z_1, z_2, \dots, z_K]$, softmax calcula:
+Dado un vector de logits $x = [x_1, x_2, \dots, x_N]$, softmax calcula:
 
-$$p_i = \frac{\exp(z_i)}{\sum_j \exp(z_j)}$$
+$$p_i = \text{softmax}(x_i) = \frac{\exp(x_i)}{\sum_j \exp(x_j)} = \frac{e^{x_i}}{\sum_j e^{x_j}}$$
 
 El resultado tiene dos propiedades importantes:
 
@@ -28,6 +28,8 @@ El resultado tiene dos propiedades importantes:
 - la suma de todas las probabilidades es 1
 
 La exponencial hace que diferencias pequeñas entre *logits* puedan convertirse en diferencias grandes de probabilidad. Por eso softmax no solo ordena clases, sino que define una distribución completa.
+
+Una técnica de depuración común cuando se trabaja con un modelo de IA es observar las probabilidades que este modelo calcula para determinadas entradas. Si las probabilidades parecen aleatorias, el modelo no ha aprendido mucho.
 
 ## En modelos de lenguaje
 
@@ -45,9 +47,11 @@ Antes de aplicar softmax, los *logits* pueden modificarse con parámetros de [[P
 
 En una implementación real, softmax suele calcularse restando el máximo *logit* antes de aplicar la exponencial:
 
-$$\text{softmax}(z_i) = \frac{\exp(z_i - \max(z))}{\sum_j \exp(z_j - \max(z))}$$
+$$\text{softmax}(x_i) = \frac{\exp(x_i - \max(x))}{\sum_j \exp(x_j - \max(x))}$$
 
 Esto no cambia el resultado matemático, pero evita *overflow* numérico cuando los *logits* son grandes.
+
+Muchos proveedores de modelos devuelven probabilidades generadas por sus modelos como ***[[Logprobs|logprobs]]***.
 
 ## Errores comunes
 

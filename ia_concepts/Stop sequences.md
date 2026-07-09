@@ -14,6 +14,12 @@ Son un [[Parámetros de decoding|parámetro de decoding]] usado para controlar e
 
 ## Utilidad
 
+Un modelo de lenguaje autorregresivo genera secuencias de tokens generando un token tras otro. Una secuencia de salida larga requiere más tiempo, tiene más coste de computación (dinero) y, en ocasiones, puede molestar a los usuarios. Vamos a necesitar establecer una condición para que el modelo detenga la secuencia.
+
+Un método sencillo es pedir a los modelos que dejen de generar después de una cantidad fija de tokens. La desventaja es que es probable que la salida se corte a mitad de la frase. Otro método es utilizar tokens de parada o palabras vacías, es decir, tokens de fin de secuencia. Las condiciones de parada son útiles para mantener bajos la latencia y los costos.
+
+La desventaja de la detención anticipada es que si deseamos que los modelos generen resultados en un formato determinado, la detención prematura puede provocar que los resultados tengan un formato incorrecto. Por ejemplo, si le pedimos al modelo que genere JSON, una detención anticipada puede hacer que al JSON de salida le falten cosas como corchetes, lo que hace que el JSON generado sea difícil de analizar.
+
 Una *stop sequence* funciona como una señal de "hasta aquí".
 
 Por ejemplo, si queremos que el modelo genere solo la respuesta de un asistente y no continúe simulando al usuario, podemos usar una secuencia como `Usuario:` para detener la generación cuando aparezca.

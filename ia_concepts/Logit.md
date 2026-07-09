@@ -43,7 +43,7 @@ Por eso, decir que un *logit* vale 8 no significa que la probabilidad sea 8. Hay
 
 ## Errores comunes
 
-- Confundir *logits* con probabilidades.
+- Confundir *logits* con probabilidades. Si bien los *logits* más grandes corresponden a mayores probabilidades, los logits no representan probabilidades.
 - Interpretar un *logit* de forma aislada, sin compararlo con los demás.
 - Olvidar que softmax es sensible a diferencias entre *logits*, no solo a sus valores absolutos.
 - Aplicar softmax dos veces antes de calcular una pérdida como cross-entropy.

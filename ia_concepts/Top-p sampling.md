@@ -12,6 +12,10 @@ tags:
 
 En lugar de fijar un número exacto de candidatos, como en [[Top-k sampling|top-k sampling]], *top-p* adapta dinámicamente el tamaño del conjunto de tokens posibles en cada paso.
 
+En el muestreo *top-p,* el modelo suma las probabilidades de los siguientes valores más probables en orden descendente y se detiene cuando la suma llega a $p$. Sólo se consideran los valores dentro de esta probabilidad acumulada.
+
+Los valores comunes para el muestreo *top-p* en modelos de lenguaje suelen oscilar entre 0.9 y 0.95. Un valor $p$ superior de 0.9, por ejemplo, significa que el modelo considerará el conjunto más pequeño de valores cuya probabilidad acumulada supere el 90%.
+
 ## Utilidad
 
 La intuición es permitir variedad cuando hay varias continuaciones razonables, pero restringir la generación cuando el modelo está muy seguro.
@@ -39,6 +43,10 @@ La diferencia principal es que [[Top-k sampling|top-k]] fija el número de token
 *Top-k* responde a la pregunta: “¿entre cuántos tokens dejamos elegir al modelo?”. *Top-p* responde a: “¿cuánta probabilidad total queremos conservar?”.
 
 En la práctica, *top-p* suele ser más flexible, aunque ambos parámetros pueden combinarse con [[Temperatura|temperatura]].
+
+A diferencia de *top-k*, *top-p* no necesariamente reduce la carga de cálculo de *[[Softmax|softmax]]*. Su beneficio es que, debido a que se centra únicamente en el conjunto de valores más relevantes para cada contexto, permite que los resultados sean más apropiados al contexto.
+
+En teoría, no debería haber muchos beneficios a la hora de usar *top-p*. Sin embargo, en la práctica, este muestreo ha demostrado funcionar bien, lo que ha provocado un aumento de su popularidad. Una estrategia de muestreo relacionada es ***min-p***, donde se establece la probabilidad mínima que debe alcanzar un token para ser considerado durante el muestreo.
 
 ## Errores comunes
 
