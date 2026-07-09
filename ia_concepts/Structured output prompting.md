@@ -14,6 +14,10 @@ Es una práctica clave cuando la salida del modelo será consumida por código o
 
 No basta con pedir "extrae la información". Hay que decir qué campos queremos, cómo se llaman y qué debe pasar si un dato falta.
 
+El que un modelo pueda seguir esta instrucción depende de la capacidad del modelo para seguir instrucciones y de la claridad de la instrucción.
+
+Para aumentar el porcentaje de resultados válidos, algunas personas utilizan la IA para validar y/o corregir el resultado del mensaje original. Esto significa que para cada resultado, habrá al menos dos consultas de modelo: una para generar el resultado y otra para validarlo. Si bien la capa de validación agregada puede mejorar significativamente la validez de los resultados, el costo adicional y la latencia incurridos por las consultas de validación adicionales pueden hacer que este enfoque sea demasiado costoso para algunos.
+
 ## Funcionamiento
 
 Un prompt para salida estructurada suele especificar:
