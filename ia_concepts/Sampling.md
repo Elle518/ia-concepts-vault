@@ -29,7 +29,7 @@ $$p_i = \frac{e^{x_i}}{\sum_j e^{x_j}}$$
 
 Después, el sistema selecciona el siguiente token usando una estrategia de *[[Parámetros de decoding|decoding]]*. Por ejemplo:
 
-- ***[[Greedy sampling]]*** elige siempre el resultado o token más probable. Esto suele funcionar bien en tareas de clasificación, sin embargo, en un modelo de lenguaje, genera resultados poco interesantes.
+- ***[[Greedy decoding]]*** elige siempre el resultado o token más probable. Esto suele funcionar bien en tareas de clasificación, sin embargo, en un modelo de lenguaje, genera resultados poco interesantes.
 - ***[[Top-k sampling]]*** muestrea solo entre los $k$ tokens más probables.
 - ***[[Top-p sampling]]*** muestrea entre el conjunto mínimo de tokens que acumula una probabilidad $p$.
 - **[[Temperatura]]** modifica cuánta aleatoriedad tiene la distribución antes de muestrear.
@@ -41,6 +41,8 @@ El *sampling* explica por qué un mismo modelo puede producir respuestas distint
 Elegir bien la estrategia de *sampling* puede mejorar mucho el comportamiento de una aplicación sin cambiar los pesos del modelo. Para tareas factuales o estructuradas suele interesar un *sampling* más conservador. Para *brainstorming* o escritura creativa puede interesar permitir más diversidad.
 
 La parte importante es que más aleatoriedad no significa mejor razonamiento. Solo cambia cómo se explora la distribución de salidas posibles.
+
+El *sampling* también explica parte de la diferencia entre un [[Modelo determinista|modelo determinista]] y un [[Modelo probabilístico|modelo probabilístico]]. En LLMs, esta naturaleza probabilística puede producir [[Inconsistencia en LLMs|inconsistencia]] y aumentar el riesgo de [[Alucinación en LLMs|alucinaciones]], aunque las alucinaciones no se explican solo por el muestreo.
 
 ## Errores comunes
 
@@ -60,7 +62,7 @@ La parte importante es que más aleatoriedad no significa mejor razonamiento. So
 
 **¿Cuál es la intuición detrás del sampling?**
 ?
-![[#Intuición]]
+![[#Definición]]
 
 **¿Cómo pasa un modelo de logits a probabilidades antes de hacer sampling?**
 ?
