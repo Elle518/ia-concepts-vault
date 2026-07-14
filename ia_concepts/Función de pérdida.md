@@ -20,7 +20,7 @@ La pérdida depende del tipo de problema:
 
 - En [[Regresión|regresión]], son comunes [[MSE]] y [[MAE]].
 - En [[Clasificación|clasificación]], es común [[Cross-entropy loss|cross-entropy loss]].
-- En modelos de lenguaje, se suele entrenar prediciendo el siguiente token con *[[Cross-entropy|cross-entropy]]*.
+- En modelos de lenguaje, se suele entrenar prediciendo el siguiente token con [[Cross-entropy loss|cross-entropy loss]].
 
 La elección de la función de pérdida define qué significa “mejorar” para el modelo.
 
