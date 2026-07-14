@@ -4,7 +4,6 @@ tags:
   - llms
   - metric
   - ml
-  - nlp
   - review
 ---
 
@@ -48,7 +47,7 @@ Intuitivamente, la entropía mide la dificultad de predecir lo que viene a conti
 
 ## Preguntas
 
-#flashcards/llms #flashcards/metric #flashcards/ml #flashcards/nlp 
+#flashcards/llms #flashcards/metric #flashcards/ml 
 
 **¿Qué mide la entropía?**
 ?
