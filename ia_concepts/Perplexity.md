@@ -45,18 +45,29 @@ Por ejemplo, consideremos un modelo de lenguaje entrenado para codificar perfect
 
 ## Fórmula en modelos de lenguaje
 
-Para una secuencia de tokens $w_1, \dots, w_N$:
+Para una secuencia de tokens $x_1, \dots, x_N$ podemos calcular la *perplexity* para una cierta secuencia de tokens de la siguiente manera:
 
-$$\text{PPL}(w_1, \dots, w_N) =
+$$\text{PPL}(x_1, \dots, x_N) =
 \exp\left(
 -\frac{1}{N}
 \sum_{i=1}^{N}
-\log P(w_i \mid w_1, \dots, w_{i-1})
+\log P(x_i \mid x_1, \dots, x_{i-1})
 \right)$$
 
 donde el modelo asigna una probabilidad al token correcto en cada posición.
 
+También podemos expresarlo como:
+
+$$\text{PPL}(x_1, \dots, x_N)^{-1/N} = 
+(\frac{1}{P(x_1, \dots, x_N)})^{1/N} = 
+(\prod_{i=1}^N\frac{1}{P(x_i|x_1, \dots, x_{i-1})})^{1/N} = 
+$$
+
+donde  $P(x_i|x_1, \dots, x_{i-1})$ denota la probabilidad que el modelo asigna al token $x_i$ dados los tokens anteriores $x_1, \dots, x_{i-1}$.
+
 Una menor *perplexity* implica que el modelo asigna mayor probabilidad media a los tokens reales.
+
+Para calcular la perplejidad, necesitamos acceso a las probabilidades (o [[Logprobs|logprobs]]) que el modelo del lenguaje asigna a cada token siguiente. Desafortunadamente, no todos los modelos comerciales exponen esta información de sus modelos.
 
 ## Qué afecta a la perplexity
 
