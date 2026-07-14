@@ -1,7 +1,7 @@
 ---
 type: concept
 tags:
-  - metric
+  - metrics
   - ml
   - review
 ---

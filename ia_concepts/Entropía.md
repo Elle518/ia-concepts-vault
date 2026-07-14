@@ -2,7 +2,7 @@
 type: concept
 tags:
   - llms
-  - metric
+  - metrics
   - ml
   - review
 ---
@@ -47,7 +47,7 @@ Intuitivamente, la entropía mide la dificultad de predecir lo que viene a conti
 
 ## Preguntas
 
-#flashcards/llms #flashcards/metric #flashcards/ml 
+#flashcards/llms #flashcards/metrics #flashcards/ml 
 
 **¿Qué mide la entropía?**
 ?
