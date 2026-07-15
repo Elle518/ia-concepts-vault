@@ -1,0 +1,7 @@
+interface:
+  display_name: "Export Note PDF"
+  short_description: "Exporta notas Markdown a PDF con plantilla."
+  default_prompt: "Use $export-note-pdf to export this vault note to PDF."
+
+policy:
+  allow_implicit_invocation: true
